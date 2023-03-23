@@ -10,6 +10,7 @@ VC**、**SpringBoot**框架，而前端框架则选择了主流的**BootStrap**�
 ### 1. 项目名称
 **项目名称：** tmall_springboot
 ### 2. java源代码包结构
+```
 ├─tmall                 
 │  ├─comparator         比较器类 用于搜索结果筛选     
 │  ├─config             配置器类 用于配置 跨域、 redis、Shiro、页面拦截
@@ -28,11 +29,11 @@ VC**、**SpringBoot**框架，而前端框架则选择了主流的**BootStrap**�
 │  │ ├─AdminPageController      后台页面控制器
 │  │ ├─ForePageController       前端页面映射控制器
 │  │ ├─ForeRestController       前端页面内容请求控制器
-
+```
 Application          程序主入口            
 
 ### 3. 资源包结构
-
+```
 ├─resource        资源目录    
 │  ├─public       公共资源
 │  │ ├─css        公共CSS
@@ -45,7 +46,7 @@ Application          程序主入口
 │  │ │ ├─admin         后台组件页
 │  │ │ ├─fore          前台组件页
 .properties      全局配置文件    
-
+```
 ## 三、功能场景
 典型场景
 1. 购物车
